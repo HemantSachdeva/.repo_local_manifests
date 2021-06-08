@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="hub"
+            fetch="https://github.com/HemantSachdeva" />
+
+    <remote name="lab"
+            fetch="https://gitlab.com/HemantSachdeva" />
+
+    <!-- Trees -->
+    <project path="device/xiaomi/laurel_sprout" name="device_xiaomi_laurel_sprout" remote="hub" revision="elle" />
+    <project path="kernel/xiaomi/laurel_sprout" name="kernel_xiaomi_laurel_sprout" remote="hub" revision="elle" />
+    <project path="vendor/xiaomi/laurel_sprout" name="vendor_xiaomi_laurel_sprout" remote="hub" revision="elle" />
+    <project path="device/xiaomi/laurel_sprout-images" name="device_xiaomi_laurel_sprout-images" clone-depth="2" remote="lab" revision="elle" />
+</manifest>
